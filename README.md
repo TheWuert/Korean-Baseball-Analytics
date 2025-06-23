@@ -1,7 +1,3 @@
-# Save the README content as a Markdown (.md) file
-
-readme_md = """# Korean Baseball Pitching Analysis
-
 **Author:**  
 Christian Huerta
 
@@ -34,10 +30,3 @@ This analysis seeks to answer several questions, including:
 - There appears to be a mild correlation between player age and ERA.
 - Some teams show higher than average WHIP and home run rates, which may indicate pitching challenges.
 - Wild pitches and hit batters vary widely across teams, showing different control profiles.
-"""
-
-readme_md_path = "/mnt/data/KBO_Pitching_README.md"
-with open(readme_md_path, "w", encoding="utf-8") as f:
-    f.write(readme_md)
-
-readme_md_path
